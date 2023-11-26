@@ -1,0 +1,155 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+.all-ul a::after,
+.p-link a::after {
+	font-family: "FontAwesome";
+	font-weight: 900;
+	content: "\f105";
+	padding-left: 10px;
+}
+
+/* heading start */
+.all-header-wrapper {
+	background-color: black;
+	height: 60px;
+}
+
+/* heading end */
+
+.p-link {
+	margin-top: 10px;
+}
+
+/* common properties */
+.common-bg {
+	height: 500px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+.same-p {
+	padding-right: 20px;
+}
+
+/* common properties */
+
+/* third section start */
+.third-sec {
+	background-image: url("../Images/iphone-pro\ sm.jpg");
+}
+.common-text {
+	padding-top: 15px;
+}
+
+/* third section end */
+
+/* fourth section start */
+.fourth-sec {
+	background-image: url("../Images/iphone-14\ small.jpg");
+}
+
+/* fourth section end */
+
+/* fifth section start */
+.fifth-sec {
+	background-image: url("../Images/creativity-small.jpg");
+}
+
+/* fifth section end */
+
+/* sixth section start */
+.sixth-sec-left {
+	background-image: url("../Images/watch_small.jpg");
+	margin-top: 10px;
+}
+
+.sixth-sec-right {
+	background-image: url("../Images/ipad_small.jpg");
+}
+
+/* sixth section end */
+
+/* seventh section start */
+.seventh-sec-left {
+	background-image: url("../Images/mbp_small.jpg");
+}
+
+.seventh-sec-right {
+	background-image: url("../Images/homepod-small.jpg");
+}
+
+/* seventh section end */
+
+/* eighth setion start */
+.eighth-sec-left {
+	background-image: url("../Images/airpods_pro_small.jpg");
+}
+
+.eighth-sec-right {
+	background-image: url("../Images/card_small.jpg");
+}
+
+/* eighth section end */
+
+/* footer part start */
+.all-footer-wrapper {
+	background-color: rgb(245, 245, 247);
+}
+
+.foot-text {
+	border-bottom: 1px solid grey;
+	padding-bottom: 20px;
+}
+.footer-link p {
+	border-bottom: 1px solid grey;
+	/* padding-top: 10px; */
+	padding-bottom: 10px;
+	align-items: center;
+}
+.last-footer a {
+	color: grey;
+}
+
+/* footer part end  */
+
+/* media query start */
+@media (min-width: 768px) {
+	.all-header-wrapper ul a , .footer-link a{
+		color: grey;
+	}
+	.md-h {
+		height: 700px;
+	}
+
+	.third-sec {
+		background-image: url("../Images/iphone-pro\ ls.jpg");
+	}
+
+	.fourth-sec{
+		background-image: url("../Images/iphone-14\ large.jpg");
+	}
+	.fifth-sec{
+		background-image: url("../Images/creativity-large.jpg");
+		background-size: cover;
+	}
+	.four-nine > div{ 
+		width: 49%;
+	} 
+	.footer-link p{
+		border: none;
+	}
+	.p-left{
+		padding-left: 1px;
+	}
+	
+}
+
+/* media query end */
